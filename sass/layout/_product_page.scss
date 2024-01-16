@@ -1,0 +1,44 @@
+.product{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 2em 0;
+    @include small-screen{
+        grid-template-columns: 1fr;
+    }
+    .img{
+        margin: auto;
+        img{
+            max-height: 80vh;
+            
+        }
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        h2{
+            font-weight: 500;
+        }
+        
+        p{
+            font-weight: 400;
+            &.price{
+                color: #f5b512;
+                font-weight: 700;
+                font-size: 28px;
+            }
+        }
+        button{
+            &.dark{
+                background-color: black;
+                border: none;
+                padding: 10px 20px;
+                color: white;
+                font-weight: 500;
+                font-size: 20px;
+                width: 100%;
+            }
+        }
+    }    
+}

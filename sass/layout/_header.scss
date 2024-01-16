@@ -1,0 +1,167 @@
+.header{
+    width: 100vw;
+    height: 90vh;
+    @include small-screen{
+        height: auto;
+        min-height: 90vh ;
+    }
+    div#carouselExampleAutoplaying{
+        height: 100%;
+    }
+    .carousel-inner{
+        height: 100%;
+    }
+    .content{
+        padding-left: 2em;
+        @include small-screen{
+            padding-left: 0;
+        }
+    }
+    .carousel-item{
+        transition:  transform .5s ease-in, opacity .5s ease-in;
+        .desc{
+            min-height: 90vh;
+            background-color: salmon;
+            padding: 0;
+            &.generel_desc{
+                background:linear-gradient(to left top,rgba(0, 0, 0,.5),rgba(0, 0, 0,.5)), url("../images/bg-img.png") ;
+                background-size: cover;
+            }
+            &.jewelery_desc{
+                padding: 0;
+                background-color: #191819;
+                display: grid;
+                grid-template-columns: 2fr 1fr;
+                @include small-screen{
+                    grid-template-columns: 1fr;
+                }
+                .content{
+                    width: 90%;
+                    @include small-screen{
+                        order: 2;
+                    }
+                }
+                h2{
+                    line-height: 1;
+                }
+                .img{
+                    background: url("../images/jw_1.jpg");
+                    background-size: cover;
+                    height: 100%;
+                    width: 100%;
+                    @include small-screen{
+                        height: 300px;
+                        width: 300px;
+                        margin-bottom: 20px;
+                    }
+                }
+
+            }
+            &.clothes_desc{
+                background-color: #E0E0E0;
+                padding: 0;
+                display: grid;
+                grid-template-columns: 2fr 1fr;
+                @include small-screen{
+                    grid-template-columns: 1fr;
+                }
+                .content{
+                    width: 90%;
+                    @include small-screen{
+                        order: 2;
+                    }
+                }
+                .img{
+                    background: url("../images/cl_4.jpg");
+                    background-size: cover;
+                    height: 100%;
+                    width: 100%;
+                    @include small-screen{
+                        height: 300px;
+                        width: 300px;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+            
+            width: 100%;
+            height: 100%;
+            padding: 30px 0;
+            display: flex;
+            // flex-direction: column;
+            justify-content:center;
+            .content{
+                width: 70%;
+                margin: auto;
+                @include small-screen{
+                    width: 90%;
+                }
+            }
+            h1{
+                color: #E2E1E6;
+                font-size: 60px;
+                padding-bottom: 10px;
+                font-weight: 700;
+                letter-spacing: 5px;
+                margin-bottom: 20px;
+                @include small-screen{
+                    display: flex;
+                    flex-wrap: wrap;
+                    font-size: 2.5em;
+                }
+                span{
+                    padding: 0px 15px;
+                    margin: 0 5px;
+                    border-radius: 10px;
+                    background-color: #E2E1E6;
+                    color: black;
+                }
+            }
+            p{
+                color: white;
+                font-size: 18px;
+                line-height: 40px;
+                font-weight:300;
+                width: 90%;
+            }
+            h2{
+                color: #EAD3BC;
+                font-weight: 700;
+                font-size: 70px;
+                margin-bottom: 25px;
+                line-height: 2;
+                @include small-screen{
+                    font-size: 60px;
+                }
+                &.h_clothes{
+                    color: #000000;
+                }
+                .white{
+                    background-color: white;
+                    border-radius: 15px;
+                    padding: 2px 10px;
+                }
+                .yellow{
+                    background-color: #EBD96B;
+                    border-radius: 15px;
+                    padding: 2px 10px;
+                }
+            }
+            .img{
+                margin: auto;
+                height: 500px;
+                margin-bottom: 10px;
+                img{
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            .quote{
+                color: #191819;
+                font-weight: 700;
+                font-size: 15px;
+                font-family: 'Dancing Script', cursive;
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.products_section{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 2em;
+    // justify-content: center;
+    @include x-small-screen{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .card_prod{
+        margin: 10px 20px 10px 0;
+        @include small-screen{
+                        margin:10px auto !important;
+        }
+        @include x-small-screen{
+            margin:10px auto !important;
+        }
+    }
+}

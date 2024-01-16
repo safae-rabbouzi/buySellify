@@ -1,0 +1,29 @@
+@import "./utils/variables";
+@import "./utils/mixins";
+@import "./utils/extensions";
+
+@import "./base/base";
+@import "./base/typography";
+
+@import "./components/buttons";
+@import "./components/container";
+@import "./components/card-prod";
+@import "./components/carousel";
+@import "./components/star";
+
+@import "./layout/header";
+@import "./layout/nav";
+@import "./layout/footer";
+@import "./layout/home_categ";
+@import "./layout/join_us";
+@import "./layout/login";
+@import "./layout/prod_nav";
+@import "./layout/prod_section";
+@import "./layout/product_page";
+@import "./layout/feedback";
+@import "./layout/review";
+@import "./layout/contact";
+@import "./layout/_alert.scss";
+@import "./layout/shp_cart";
+@import "./layout/shopping";
+@import "./layout/user";

@@ -1,0 +1,38 @@
+
+button.btn-header{
+    background: transparent;
+    color: white;
+    font-weight: 400;
+    font-size: 19px;
+    border: transparent 2px solid;
+    padding:  15px;
+    width: 45%;
+    margin: 10px 0;
+    @include small-screen{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+    }
+    &.browse{
+        background-color: #78615D;
+        margin-right: 30px;
+    }
+    &.seller{
+        border: white 2px solid;
+    }
+    &.discover_jlr{
+        background: #EAD3BC;
+        border: 2px solid #EAD3BC;
+        color: #191819;
+        font-weight: 600;
+    }
+    &.shop{
+        color: white;
+        background-color: black;
+    }
+    &:hover{
+        opacity: .5;
+    }
+}
+

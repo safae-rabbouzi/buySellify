@@ -1,0 +1,117 @@
+.contact_us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    color: white;
+    text-align: center;
+    margin: auto;
+    background: linear-gradient(108deg, rgba(0,0,0,1) 0%, rgba(32,28,19,0.65) 56%, rgba(197,151,36,0.78) 100%), url("../images/contact.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 3px 3px #78615D;
+
+  }
+  .contact_us h1{
+    font-weight: 700;
+  }
+.formul{
+  
+  border: 2px solid #D6D6D6;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+  padding: 4em 20px;
+  max-width: 450px;
+  margin-bottom: 5em;
+}
+.formul form input{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: none;
+  border: 1px solid #D6D6D6;
+  padding: 5px 10px;
+  width: 100%;
+}
+.formul form textarea{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: none;
+  border: 1px solid #D6D6D6;
+  padding: 5px;
+  width: 100%;
+  height: 10em;
+}
+.h_contact{
+  margin: auto;
+  padding: 3em 0;
+  font-weight: bold;
+}
+.formul .send{
+  font-weight: 500;
+  background-color: #EBD96B;
+  border: #EBD96B 1px solid;
+  border-radius: 3px;
+  padding: 10px 20px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+}
+.contact_social img{
+  width: 40px;
+  margin-right: 20px;
+}
+.contact_social p{
+  font-size: 20px;
+  padding: 10px 0px;
+}
+.about_us{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  color: white;
+  text-align: center;
+  margin: auto;
+  background: linear-gradient(108deg, rgba(0,0,0,1) 0%, rgba(32,28,19,0.65) 56%, rgba(197,151,36,0.78) 100%), url("../images/aboutUs.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 3px 3px #78615D;
+}
+.about_us h1{
+  font-weight: 700;
+  font-size: 4em;
+}
+#about_us h2{
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  font-weight: bold;
+  font-size: 3em;
+  color: #E5C643;
+}
+#about_us p{
+  max-width: 700px;
+  margin: auto;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+#about_us button{
+  font-weight: 500;
+  background-color: #EBD96B;
+  border: #EBD96B 1px solid;
+  border-radius: 3px;
+  padding: 20px 30px;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  margin-bottom: 5em;
+}
+#about_us button a{
+  color: #000000;
+  font-size: 20px;
+}

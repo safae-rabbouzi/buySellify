@@ -1,0 +1,36 @@
+.h_order{
+    font-size: 35px;
+    font-weight: 700;
+    margin: auto;
+    padding: 25px 0px;
+}
+.order{
+    display: flex;
+    flex-wrap: wrap;
+}
+.order .card_prod{
+    margin: 20px 20px 20px 0;
+}
+.btn_order{
+    background-color: #FAC338;
+    width: 100%;
+    display: flex;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+.btn_order a{
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    padding: 6px 5px;
+    margin: auto;
+}
+.btn_delete{
+    background-color: rgb(105, 2, 2);
+    a{
+        color: white;
+    }
+}

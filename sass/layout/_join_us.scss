@@ -1,0 +1,71 @@
+.join_us{
+    background-color: #E5C643;
+    .content{
+        text-align: center;
+        margin: auto;
+        width: 90%; 
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 4em 1em;
+        @include small-screen{
+            width: 99%;
+        }
+        h2{
+            font-weight: 700;
+            font-size: 55px;
+            margin-bottom: 20px;
+            @include small-screen{
+                font-size: 40px;
+            }
+            @include x-small-screen{
+                font-size: 40px;
+            }
+        }
+        p{  
+            font-size: 18px;
+        }
+        form{
+            display: flex;
+            align-items: center;
+            font-size: 12px;
+            justify-content: center;
+            @include small-screen{
+                flex-direction: column;
+                font-size: 15px;
+            }
+            width: 100%;
+            input{
+                width: 400px;
+                @include small-screen{
+                    width: 100%;
+                }
+                border: none;
+                color: black;
+                padding: 10px 15px;
+                outline: none;
+                border: 2px solid white;
+            }
+            button.send{
+                background-color: black;
+                border: 2px solid black;
+                color: white;
+                padding: 10px 40px;
+                
+                @include small-screen{
+                    margin-top: 10px;
+                    width: 100%;
+                }
+                font-weight: 600px;
+                &:hover{
+                    border: 2px solid black;
+                    color: black;
+                    background-color: white;
+                }
+            }
+        }
+
+    }
+}

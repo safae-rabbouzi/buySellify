@@ -1,0 +1,25 @@
+.product_nav{
+    ul{
+        background-color: black;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        li{
+            color: white;
+            padding: 15px;
+            a{
+                font-weight: 600;
+                color: white;
+                padding: 2px 5px;
+                text-transform: capitalize;
+                border-bottom: 3px solid transparent;
+                &:hover, &.active{
+                    color: #FAC338;
+                    border-color: #FAC338;
+                }
+            }
+        }
+    }
+}

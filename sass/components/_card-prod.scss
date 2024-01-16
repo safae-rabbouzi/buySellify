@@ -1,0 +1,67 @@
+.card_prod{
+    margin: auto;
+    width: 200px;
+    border: 2px solid #F5F5F5;
+    .img{
+        height: 300px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .description{
+        padding: 15px 10px;
+        h3{
+            margin-bottom: 0;
+            font-size: 15px;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+        p.price{
+            padding: 0;
+            color: #FAC338;
+            font-weight: 700;
+            margin: 0;
+            font-size: 17px;
+        }
+        button.btn-add{
+            background-color: transparent;
+            border: 2px solid #FAC338;
+            padding: 5px 10px;
+            font-weight: 600;
+            margin: 0;
+            font-size: 12px;
+            &:hover{
+                background-color: #FAC338;
+                color: white;
+            }
+        }
+    }
+}
+
+.cat_title{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 5px;
+    align-items: center;
+    h2{
+        font-size: 25px;
+        font-weight: 600;
+        text-transform: capitalize;
+        &.best{
+            margin: auto;
+            font-size: 30px;
+            font-weight: 700;
+        }
+    }
+    a{
+        color: black;
+        text-decoration: underline;
+        color: #78615D;
+        font-weight: 600;
+    }
+}
+
+.categorie_container{
+    padding: 1em 0;
+}

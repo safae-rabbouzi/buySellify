@@ -1,0 +1,48 @@
+
+.categories{
+    margin-bottom: 2em;
+    h2{
+        margin: 1em 0;
+        text-align: center;
+        font-weight: 600;
+        font-size: 3em;
+    }
+    .cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @include x-small-screen{
+            flex-wrap: wrap;
+        }
+        .card{
+            margin: auto 10px;
+            min-width: 217px;
+            text-align: center;
+            padding: 0;
+            border: 5px solid #F5F5F5;
+            border-radius: 10px;
+            @include x-small-screen{
+                margin: 15px;
+            }
+            .img{
+                width: 100%;
+                height: 300px;
+                border-top-right-radius: 9px;
+                border-top-left-radius: 9px;
+            }
+            
+            .card-title{
+                text-transform: capitalize;
+                font-weight: 600;
+                font-family: 25px;
+                color: #444444;
+            }
+            .card-text{
+                color: #A5A5A5;
+                font-weight: 400;
+                font-size: 15px;
+            }
+        }
+        
+    }
+}
