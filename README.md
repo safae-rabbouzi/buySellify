@@ -1,6 +1,6 @@
 # Buysellify E-Commerce Website
 
-Welcome to Buysellify, an engaging e-commerce platform developed by Safae Rabbouzi && Zineb Essoussi.
+Welcome to Buysellify, an engaging e-commerce platform developed by @safae-rabbouzi && Zineb Essoussi.
 
 ## Video Demonstration
 [Uploading clideo_editor_ef214b9981704c638ee831c206032272.mp4…](https://github.com/safae-rabbouzi/buySellify/assets/108349017/f40871e7-cb66-4882-8b1a-a340671d15ce)
