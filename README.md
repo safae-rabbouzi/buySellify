@@ -3,7 +3,7 @@
 Welcome to Buysellify, an engaging e-commerce platform developed by Safae Rabbouzi && Zineb Essoussi.
 
 ## Video Demonstration
-Uploading clideo_editor_ef214b9981704c638ee831c206032272.mp4…
+[Uploading clideo_editor_ef214b9981704c638ee831c206032272.mp4…](https://github.com/safae-rabbouzi/buySellify/assets/108349017/f40871e7-cb66-4882-8b1a-a340671d15ce)
 
 ## Features
 - **User Registration and Authentication:** Users can create an account, log in, and manage their profile information.
